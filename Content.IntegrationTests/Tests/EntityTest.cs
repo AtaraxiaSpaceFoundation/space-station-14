@@ -244,6 +244,7 @@ namespace Content.IntegrationTests.Tests
 
                 // makes an announcement on mapInit.
                 "AnnounceOnSpawn",
+                "AirDrop", // spawn DropPodMarkerSimple on mapinit
             };
 
             Assert.That(server.CfgMan.GetCVar(CVars.NetPVS), Is.False);
