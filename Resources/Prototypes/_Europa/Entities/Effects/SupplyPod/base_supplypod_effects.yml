@@ -6,7 +6,6 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    noRot: true
     sprite: _Europa/Effects/telegraph.rsi
     drawdepth: FloorTiles
     layers:
@@ -46,7 +45,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    noRot: true
     sprite: _Europa/Effects/supplypod_falling.rsi
     layers:
     - state: default_falling_animation
