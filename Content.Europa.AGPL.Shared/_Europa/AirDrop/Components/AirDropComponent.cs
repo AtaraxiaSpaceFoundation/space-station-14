@@ -19,16 +19,13 @@ public sealed partial class AirDropItemComponent : Component
 
     [DataField]
     public bool DeleteOnUse { get; private set; } = true;
-
-    [DataField]
-    public bool LavaLandOnly { get; private set; } = false;
 }
 
 [RegisterComponent, NetworkedComponent]
 public sealed partial class AirDropComponent : Component
 {
     [DataField]
-    public EntProtoId DropTargetProto { get; private set; } = "BaseTargetCircle";
+    public EntProtoId DropTargetProto { get; private set; } = "BaseSupplyPodTargetCircle";
 
     [DataField]
     [AlwaysPushInheritance]
@@ -39,14 +36,14 @@ public sealed partial class AirDropComponent : Component
     /// в секундах
     /// </summary>
     [DataField]
-    public float TimeOfTarget { get; set; } = 2;
+    public float TimeOfTarget { get; set; } = 3;
 
     /// <summary>
     /// Время анимации панедения до спавна пода
     /// в секундах
     /// </summary>
     [DataField]
-    public float TimeToDrop { get; set; } = 2;
+    public float TimeToDrop { get; set; } = 3;
 
     [DataField]
     public EntProtoId InAirProto { get; private set; } = "BaseSupplyPodFallingAnimation";
