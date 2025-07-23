@@ -26,6 +26,10 @@
     <ProjectReference Include="..\RobustToolbox\Robust.Shared\Robust.Shared.csproj" />
     <ProjectReference Include="..\RobustToolbox\Robust.Server\Robust.Server.csproj" />
     <ProjectReference Include="..\Content.Shared\Content.Shared.csproj" />
+    <!-- Ya know, Europa -->
+    <ProjectReference Include="..\Content.Europa.AGPL.Shared\Content.Europa.AGPL.Shared.csproj" />
+    <ProjectReference Include="..\Content.Europa.MIT.Shared\Content.Europa.MIT.Shared.csproj" />
+    <!-- Ya know, Europa -->
   </ItemGroup>
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
 </Project>
