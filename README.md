@@ -1,59 +1,51 @@
-<div class="header" align="center">  
-<img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg">  
+<img width="1886" height="912" alt="Chelovek-oboi" src="https://github.com/user-attachments/assets/2140fbcf-b355-4978-97ff-70e9036dbb28" />
 </div>
 
-Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
 
-This is the primary repo for Space Station 14. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+Space Station 14 является ремейком СС13, которая работает на [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), движке написанном на C#    
 
-If you want to host or create content for SS14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+Это репозиторий сервера Space station 14 под названием "Europa"
 
-## Links
+Если хотите что-то улучшить на нашем сервере, то этот репозиторий для вас.
+
+## Ссылки
 
 <div class="header" align="center">  
 
-[Website](https://spacestation14.com/) | [Discord](https://discord.ss14.io/) | [Forum](https://forum.spacestation14.com/) | [Mastodon](https://mastodon.gamedev.place/@spacestation14) | [Lemmy](https://lemmy.spacestation14.com/) | [Patreon](https://www.patreon.com/spacestation14) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.com/about/nightlies/)  
+[Discord](https://discord.gg/mk-europa)
 
 </div>
 
-## Documentation/Wiki
+## Документация
 
-Our [docs site](https://docs.spacestation14.com/) has documentation on SS14's content, engine, game design, and more.  
-Additionally, see these resources for license and attribution information:  
-- [Robust Generic Attribution](https://docs.spacestation14.com/en/specifications/robust-generic-attribution.html)  
-- [Robust Station Image](https://docs.spacestation14.com/en/specifications/robust-station-image.html)
+У СС14 [сайт документации](https://docs.spacestation14.com/) есть документация по контенту, движку и гейм-дизайну игры.
+Кроме того, информацию о лицензии и авторстве можно найти в следующих ресурсах:  
+- [Общая атрибуция Robust](https://docs.spacestation14.com/en/specifications/robust-generic-attribution.html)  
 
-We also have lots of resources for new contributors to the project.
+## Контрибуторство
 
-## Contributing
+Мы будем рады принять что-то новое от любого. Если хотите помочь, присоединяйтесь к нашему Discord. У нас есть [Список проблем](https://github.com/MightBeNotReal/space-station-14-europa/issues) которые нужны для того что бы всё было гладко  
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/space-wizards/space-station-14-content/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!  
-Just make sure your changes and pull requests are in accordance with the [contribution guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language, consider creating a fork or contributing to a fork.
+Мы не будем принимать изменения системы Rebell от инных лиц, для этого есть нужные разработчики.
 
-## Building
+## Билд
 
-1. Clone this repo:
+1. Клонируем репозиторий:
 ```shell
-git clone https://github.com/space-wizards/space-station-14.git
+https://github.com/MightBeNotReal/space-station-14-europa
 ```
-2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
+2. Перейдите в папку репозитория и запустите `RUN_THIS.py`, чтобы инициализировать подмодули и загрузить движок:
 ```shell
-cd space-station-14
+cd space-station-14-europa
 python RUN_THIS.py
 ```
-3. Compile the solution:  
+3. Соберите сборку:  
 
-Build the server using `dotnet build`.
+Забилдите сборку прописав `dotnet build`.
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+[Более подробные инструкции по созданию проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
-## License
+## Лизцензия
 
-All code for the content repository is licensed under the [MIT license](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).  
-
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and copyright specified in the metadata file. For example, see the [metadata for a crowbar](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).  
-
-> [!NOTE]
-> Some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Весь код для репозитория контента лицензирован в соответствии с [MIT license](https://github.com/MightBeNotReal/space-station-14-europa/blob/master/LICENSE.TXT).  
