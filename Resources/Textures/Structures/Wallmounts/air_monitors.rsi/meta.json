@@ -185,10 +185,6 @@
     {
       "name": "firex",
       "directions": 1
-    },
-    {
-      "name": "fire-overlay",
-      "directions": 4
     }
   ]
 }
