@@ -28,7 +28,7 @@ public sealed partial class AirDropItemComponent : Component
 public sealed partial class AirDropComponent : Component
 {
     [DataField]
-    public EntProtoId DropTargetProto { get; private set; } = "DropPodMarkerSimple";
+    public EntProtoId DropTargetProto { get; private set; } = "BaseTargetCircle";
 
     [DataField]
     [AlwaysPushInheritance]
@@ -49,14 +49,14 @@ public sealed partial class AirDropComponent : Component
     public float TimeToDrop { get; set; } = 2;
 
     [DataField]
-    public EntProtoId InAirProto { get; private set; } = "DropPodLaunchAnimationSimple";
+    public EntProtoId InAirProto { get; private set; } = "BaseSupplyPodFallingAnimation";
 
     [DataField]
     [AlwaysPushInheritance]
     public ComponentRegistry InAir { get; private set; } = new();
 
     [DataField]
-    public EntProtoId SupplyDropProto { get; private set; } = "SupplyDropPodEmpty";
+    public EntProtoId SupplyDropProto { get; private set; } = "SupplyPodCapsuleDefault";
 
     [DataField]
     [AlwaysPushInheritance]
