@@ -3,7 +3,6 @@ using Content.Shared.Mind;
 using Content.Shared.MouseRotator;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
-using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Timing;
 
@@ -15,7 +14,6 @@ public abstract class SharedCombatModeSystem : EntitySystem
     [Dependency] private   readonly SharedActionsSystem _actionsSystem = default!;
     [Dependency] private   readonly SharedPopupSystem _popup = default!;
     [Dependency] private   readonly SharedMindSystem  _mind = default!;
-    [Dependency] private   readonly SharedAudioSystem _audio = default!; // Europa
 
     public override void Initialize()
     {
@@ -47,13 +45,11 @@ public abstract class SharedCombatModeSystem : EntitySystem
         args.Handled = true;
         SetInCombatMode(uid, !component.IsInCombatMode, component);
 
-    // Europa-Start
+    // Europa-Remove-Start
 //        var msg = component.IsInCombatMode ? "action-popup-combat-enabled" : "action-popup-combat-disabled"; // Shitass popup mess, removed!
 //        _popup.PopupClient(Loc.GetString(msg), args.Performer, args.Performer);
-
-        _audio.PlayPvs(component.IsInCombatMode ? "/Audio/_Europa/Effects/CombatMode/on.ogg" : "/Audio/_Europa/Effects/CombatMode/off.ogg", uid);
+    // Europa-Remove-End
     }
-    // Europa-End
 
     public void SetCanDisarm(EntityUid entity, bool canDisarm, CombatModeComponent? component = null)
     {
