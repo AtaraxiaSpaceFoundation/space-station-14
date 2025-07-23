@@ -80,6 +80,22 @@
           0.2
         ]
       ]
+    },
+    {
+      "name": "equipped-BACKPACK-dog",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-BACKPACK-dog",
+      "directions": 4
+    },
+    {
+      "name": "equipped-SUITSTORAGE-dog",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-SUITSTORAGE-dog",
+      "directions": 4
     }
   ]
 }
