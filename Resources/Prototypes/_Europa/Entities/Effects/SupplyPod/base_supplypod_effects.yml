@@ -15,6 +15,7 @@
     color: "#FF0000"
   - type: PointLight
     color: "#FF0000"
+  - type: Timer
   - type: Transform
     noRot: true
     anchored: true
@@ -53,6 +54,13 @@
   - type: Physics
     bodyType: Static
     canCollide: False
+  - type: Timer
+  - type: TimedSpawner
+    prototypes:
+      - SupplyPodCapsuleDefault
+    intervalSeconds: 2
+  - type: TimedDespawn
+    lifetime: 2.1
   - type: SpawnOnDespawn
     prototype: SmallExplosionInstant
   - type: EmitSoundOnSpawn
