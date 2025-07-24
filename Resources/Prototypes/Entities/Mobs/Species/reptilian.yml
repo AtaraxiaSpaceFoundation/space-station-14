@@ -9,8 +9,8 @@
     species: Reptilian
     hideLayersOnEquip:
     - Snout
+    - SnoutOverlay # Europa
 #    - HeadTop # Europa-Remove
-    - SnoutOverlay # Backmen
     - HeadSide
     undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Hunger
@@ -90,8 +90,8 @@
     species: Reptilian
     hideLayersOnEquip:
     - Snout
+    - SnoutOverlay # Europa
 #    - HeadTop # Europa-Remove
-    - SnoutOverlay # Backmen
     - HeadSide
     undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Inventory

@@ -402,7 +402,7 @@
         conditions:
         - !type:OrganType
           type: Animal # Applying damage to the mobs with lower metabolism capabilities
-        - !type:OrganType # Ataraxia
+        - !type:OrganType # Europa
           type: AnthroAnimal
         damage:
           types:
@@ -412,7 +412,7 @@
         conditions:
           - !type:OrganType
             type: Animal
-          - !type:OrganType # Ataraxia
+          - !type:OrganType # Europa
             type: AnthroAnimal
 
 - type: reagent
@@ -480,7 +480,7 @@
           - !type:OrganType
             type: Animal
             shouldHave: false
-          - !type:OrganType # Ataraxia
+          - !type:OrganType # Europa
             type: AnthroAnimal
             shouldHave: false
           - !type:OrganType
@@ -504,7 +504,7 @@
         - !type:OrganType
           type: Animal
           shouldHave: false
-        - !type:OrganType # Ataraxia
+        - !type:OrganType # Europa
           type: AnthroAnimal
           shouldHave: true
         - !type:OrganType
@@ -520,7 +520,7 @@
         - !type:OrganType
           type: Animal
           shouldHave: true
-        - !type:OrganType # Ataraxia
+        - !type:OrganType # Europa
           type: AnthroAnimal
           shouldHave: false
         reagent: Protein
@@ -550,7 +550,7 @@
           min: 1
         - !type:OrganType
           type: Animal
-        - !type:OrganType # Ataraxia
+        - !type:OrganType # Europa
           type: AnthroAnimal
         damage:
           types:
@@ -596,7 +596,7 @@
           min: 1
         - !type:OrganType
           type: Animal
-        - !type:OrganType # Ataraxia
+        - !type:OrganType # Europa
           type: AnthroAnimal
         damage:
           types:

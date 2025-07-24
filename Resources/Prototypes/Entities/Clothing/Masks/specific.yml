@@ -23,7 +23,7 @@
     - type: HideLayerClothing
       slots:
       - Snout
-      - SnoutOverlay # Backmen
+      - SnoutOverlay # Europa
 
 - type: entity
   parent: ClothingMaskGasChameleon
@@ -34,7 +34,7 @@
     - type: HideLayerClothing
       slots:
       - Snout
-      - SnoutOverlay # Backmen
+      - SnoutOverlay # Europa
     - type: UserInterface
       interfaces:
         enum.ChameleonUiKey.Key:
@@ -76,7 +76,7 @@
   - type: HideLayerClothing
     slots:
     - Snout
-    - SnoutOverlay # Backmen
+    - SnoutOverlay # Europa
   - type: IngestionBlocker
   - type: StaticPrice
     price: 5000

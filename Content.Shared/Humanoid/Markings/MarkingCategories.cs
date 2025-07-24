@@ -12,7 +12,7 @@ namespace Content.Shared.Humanoid.Markings
         HeadTop,
         HeadSide,
         Snout,
-        SnoutOverlay, // Backmen
+        SnoutOverlay, // Europa
         Chest,
         UndergarmentTop,
         UndergarmentBottom,
@@ -35,7 +35,7 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.HeadTop => MarkingCategories.HeadTop,
                 HumanoidVisualLayers.HeadSide => MarkingCategories.HeadSide,
                 HumanoidVisualLayers.Snout => MarkingCategories.Snout,
-                HumanoidVisualLayers.SnoutOverlay => MarkingCategories.SnoutOverlay, // Backmen
+                HumanoidVisualLayers.SnoutOverlay => MarkingCategories.SnoutOverlay, // Europa
                 HumanoidVisualLayers.Chest => MarkingCategories.Chest,
                 HumanoidVisualLayers.UndergarmentTop => MarkingCategories.UndergarmentTop,
                 HumanoidVisualLayers.UndergarmentBottom => MarkingCategories.UndergarmentBottom,

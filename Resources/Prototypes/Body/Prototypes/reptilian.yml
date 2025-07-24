@@ -13,10 +13,10 @@
     torso:
       part: TorsoReptilian
       organs:
-        heart: OrganAnthroAnimalHeart # Ataraxia
+        heart: OrganAnthroAnimalHeart # Europa-Edit
         lungs: OrganHumanLungs
         stomach: OrganReptilianStomach
-        liver: OrganAnthroAnimalLiver # Ataraxia
+        liver: OrganAnthroAnimalLiver # Europa-Edit
         kidneys: OrganHumanKidneys
       connections:
       - right arm

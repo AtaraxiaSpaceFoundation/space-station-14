@@ -17,7 +17,7 @@
   sprites:
     Head: MobReptilianHead
     Snout: MobHumanoidAnyMarking
-    SnoutOverlay: MobHumanoidAnyMarking # Backmen
+    SnoutOverlay: MobHumanoidAnyMarking # Europa
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobReptilianTorso
@@ -52,7 +52,7 @@
       points: 1
       required: true
       defaultMarkings: [ LizardSnoutRound ]
-    SnoutOverlay: # Backmen
+    SnoutOverlay: # Europa
       points: 1
       required: false
     HeadTop:
