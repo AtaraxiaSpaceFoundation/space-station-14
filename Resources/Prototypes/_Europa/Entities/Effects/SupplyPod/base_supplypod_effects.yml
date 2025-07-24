@@ -20,6 +20,7 @@
     anchored: true
   - type: Physics
     bodyType: Static
+    canCollide: false
   - type: Tag
     tags:
     - HideContextMenu
@@ -52,6 +53,7 @@
     anchored: true
   - type: Physics
     bodyType: Static
+    canCollide: false
   - type: Timer
   - type: TimedSpawner
     prototypes:
