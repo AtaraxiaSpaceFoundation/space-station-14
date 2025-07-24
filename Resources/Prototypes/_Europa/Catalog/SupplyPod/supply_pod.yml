@@ -299,6 +299,9 @@
   parent: [SupplyPodCapsuleSyndicate, ReinforcementRadioSyndicate]
   categories: [ HideSpawnMenu ]
   id: SupplyPodReinforcementSyndicate
+  components:
+  - type: Physics
+    canCollide: true
 
 # ReinforcementSyndicateNukeops
 - type: entity
@@ -323,6 +326,9 @@
   parent: [SupplyPodCapsuleSyndicate, ReinforcementRadioSyndicateNukeops]
   categories: [ HideSpawnMenu ]
   id: SupplyPodReinforcementSyndicateNukeops
+  components:
+  - type: Physics
+    canCollide: true
 
 # ReinforcementSyndicateAncestor
 - type: entity
@@ -347,6 +353,9 @@
   parent: [SupplyPodCapsuleSyndicate, ReinforcementRadioSyndicateAncestor]
   categories: [ HideSpawnMenu ]
   id: SupplyPodReinforcementSyndicateAncestor
+  components:
+  - type: Physics
+    canCollide: true
 
 # ReinforcementSyndicateAncestorNukeops
 - type: entity
@@ -371,6 +380,9 @@
   parent: [SupplyPodCapsuleSyndicate, ReinforcementRadioSyndicateAncestorNukeops]
   categories: [ HideSpawnMenu ]
   id: SupplyPodReinforcementSyndicateAncestorNukeops
+  components:
+  - type: Physics
+    canCollide: true
 
 # ReinforcementSyndicateCyborgAssault
 - type: entity
@@ -395,3 +407,6 @@
   parent: [SupplyPodCapsuleSyndicate, ReinforcementRadioSyndicateCyborgAssault]
   categories: [ HideSpawnMenu ]
   id: SupplyPodReinforcementSyndicateCyborgAssault
+  components:
+  - type: Physics
+    canCollide: true
