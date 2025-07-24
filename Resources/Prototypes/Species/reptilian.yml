@@ -29,10 +29,10 @@
     RArm: MobReptilianRArm
     LHand: MobReptilianLHand
     RHand: MobReptilianRHand
-    LLeg: MobReptilianLLeg
-    RLeg: MobReptilianRLeg
-    LFoot: MobReptilianLFoot
-    RFoot: MobReptilianRFoot
+    LLeg: MobReptilianLLegDigi # Europa-Edit
+    RLeg: MobReptilianRLegDigi # Europa-Edit
+    LFoot: MobReptilianLFootDigi # Europa-Edit
+    RFoot: MobReptilianRFootDigi # Europa-Edit
 
 - type: markingPoints
   id: MobReptilianMarkingLimits

@@ -79,18 +79,28 @@ marking-TailSnakeUnder-snake_under = Верхняя часть
 marking-TailSnakeUnder-snake_under_secondary = Нижняя часть
 
 # ШИПЫ
+marking-LizardChestSpinesAquatic = Ящер, грудь, шипы на спине (Водный)
+marking-LizardChestSpinesAquatic-spines_aquatic = Шипы
 marking-LizardChestSpinesAquaticWithoutTail = Ящер, грудь, шипы на спине (Водный, без хвоста)
 marking-LizardChestSpinesAquaticWithoutTail-spines_aquatic = Шипы
 
+marking-LizardChestSpinesLong = Ящер, грудь, шипы на спине (Длинные)
+marking-LizardChestSpinesLong-spines_long = Шипы
 marking-LizardChestSpinesLongWithoutTail = Ящер, грудь, шипы на спине (Длинные, без хвоста)
 marking-LizardChestSpinesLongWithoutTail-spines_long = Шипы
 
+marking-LizardChestSpinesLongMembrane = Ящер, грудь, шипы на спине (Длинные, Мембрана)
+marking-LizardChestSpinesLongMembrane-spines_longmembrane = Шипы
 marking-LizardChestSpinesLongMembraneWithoutTail = Ящер, грудь, шипы на спине (Длинные, Мембрана, без хвоста)
 marking-LizardChestSpinesLongMembraneWithoutTail-spines_longmembrane = Шипы
 
+marking-LizardChestSpinesShort = Ящер, грудь, шипы на спине (Короткие)
+marking-LizardChestSpinesShort-spines_short = Шипы
 marking-LizardChestSpinesShortWithoutTail = Ящер, грудь, шипы на спине (Короткие, без хвоста)
 marking-LizardChestSpinesShortWithoutTail-spines_short = Шипы
 
+marking-LizardChestSpinesShortMembrane = Ящер, грудь, шипы на спине (Короткие, Мембрана)
+marking-LizardChestSpinesShortMembrane-spines_short = Шипы
 marking-LizardChestSpinesShortMembraneWithoutTail = Ящер, грудь, шипы на спине (Короткие, Мембрана, без хвоста)
 marking-LizardChestSpinesShortMembraneWithoutTail-spines_short = Шипы
 
