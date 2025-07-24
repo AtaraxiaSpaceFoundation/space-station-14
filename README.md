@@ -46,6 +46,6 @@ python RUN_THIS.py
 
 [Более подробные инструкции по созданию проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
-## Лизцензия
+## Лицензия
 
-Весь код для репозитория контента лицензирован в соответствии с [MIT license](https://github.com/MightBeNotReal/space-station-14-europa/blob/master/LICENSE.TXT).  
+Весь код для репозитория контента лицензирован в соответствии с [MIT license](https://github.com/MightBeNotReal/space-station-14-europa/blob/master/LICENSE-MIT.TXT) && [AGPLv3](https://github.com/MightBeNotReal/space-station-14-europa/blob/master/LICENSE-AGPLv3.TXT). Взгляните на [наше лицензирование](https://github.com/MightBeNotReal/space-station-14-europa/blob/master/LEGAL.md)
