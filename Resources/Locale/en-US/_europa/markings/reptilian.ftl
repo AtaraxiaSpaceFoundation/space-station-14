@@ -1,5 +1,5 @@
 # HEAD
-marking-LizardHeadGuilmon= Lizard, guilmon
+marking-LizardHeadGuilmon = Lizard, guilmon
 marking-LizardHeadGuilmon-guilmon = Main
 
 marking-LizardShoutEasternDragon= Lizard, eastern dragon
