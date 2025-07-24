@@ -44,7 +44,8 @@
   - type: ResistLocker
   - type: ItemSlots
   - type: EntityStorage
-    capacity: 0 # Only dilivery, no safe place
+    capacity: 42 # Players cannot hide inside
+    isCollidableWhenOpen: true
   - type: RadiationBlockingContainer
     resistance: 5
   - type: ExplosionResistance
