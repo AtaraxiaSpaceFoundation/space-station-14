@@ -4,16 +4,16 @@ marking-LizardHeadGuilmon-guilmon = Основная часть
 
 marking-LizardSnoutEasternDragon= Ящер, восточный дракон
 marking-LizardSnoutEasternDragon-cobra_hood_with_ears = Внешняя часть
-marking-LizardSnoutEasternDragon-cobra_hood_with_ears_overlay = Внутреняя часть
+marking-LizardSnoutEasternDragon-cobra_hood_with_ears_overlay = Внутренняя часть
 
 marking-LizardSnoutEasternDragonUsiki= Ящер, восточный дракон (Усики)
 marking-LizardSnoutEasternDragonUsiki-eastern_dragon = Внешняя часть
-marking-LizardSnoutEasternDragonUsiki-eastern_dragon_overlay = Внутреняя часть
+marking-LizardSnoutEasternDragonUsiki-eastern_dragon_overlay = Внутренняя часть
 marking-LizardSnoutEasternDragonUsiki-eastern_dragon_usiki = Усики
 
 marking-LizardHeadCobraHood = Ящер, воротник с ушами (Кобра)
 marking-LizardHeadCobraHood-cobra_hood_with_ears = Внешняя часть
-marking-LizardHeadCobraHood-cobra_hood_with_ears_overlay = Внутреняя часть
+marking-LizardHeadCobraHood-cobra_hood_with_ears_overlay = Внутренняя часть
 
 marking-LizardHornsCurled-horns_curled_l = Левый рог
 marking-LizardHornsCurled-horns_curled_r = Правый рог
